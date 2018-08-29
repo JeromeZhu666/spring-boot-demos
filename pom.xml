@@ -29,6 +29,7 @@
         <module>spring-boot-demo-redis</module>
         <module>spring-boot-demo-web</module>
         <module>spring-boot-demo-cache</module>
+        <module>spring-boot-demo-jdbc</module>
     </modules>
 
 
