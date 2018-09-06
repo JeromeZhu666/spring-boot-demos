@@ -35,6 +35,7 @@
         <module>spring-boot-demo-validation</module>
         <module>spring-boot-demo-websocket</module>
         <module>sping-boot-demo-security</module>
+        <module>spring-boot-demo-mail</module>
     </modules>
 
 

@@ -1,4 +1,4 @@
-package xin.jerome.security;
+package xin.jerome.mail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 启动类
  *
  * @author Jerome Zhu
- * @since 2018.08.31 15:34
+ * @since 2018.09.06 15:47
  */
 @SpringBootApplication
-public class SpringBootDemoSecurityApplication {
+public class SpringBootDemoMailApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoSecurityApplication.class);
+        SpringApplication.run(SpringBootDemoMailApplication.class);
     }
 }
