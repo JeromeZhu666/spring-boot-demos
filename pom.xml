@@ -38,6 +38,7 @@
         <module>spring-boot-demo-mail</module>
         <module>spring-boot-demo-logback</module>
         <module>spring-boot-demo-jmx</module>
+        <module>spring-boot-demo-configuration</module>
     </modules>
 
 
