@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import xin.jerome.jmx.spring.SimpleBean;
 
 /**
- * TODO Comment
+ * JMXController
  *
  * @author Jerome Zhu
  * @since 2018.09.20 15:41
