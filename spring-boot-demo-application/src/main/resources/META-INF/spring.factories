@@ -1,0 +1,9 @@
+# 自定义初始化器
+org.springframework.context.ApplicationContextInitializer=\
+xin.jerome.application.context.AfterHelloApplicationContextInitializer,\
+xin.jerome.application.context.HelloApplicationContextInitializer
+
+# Application Listeners  应用的监听器
+org.springframework.context.ApplicationListener=\
+xin.jerome.application.listener.AfterHelloApplicationListener,\
+xin.jerome.application.listener.HelloApplicationListener
