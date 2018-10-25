@@ -7,3 +7,7 @@ xin.jerome.application.context.HelloApplicationContextInitializer
 org.springframework.context.ApplicationListener=\
 xin.jerome.application.listener.AfterHelloApplicationListener,\
 xin.jerome.application.listener.HelloApplicationListener
+
+# SpringApplicationRunListener 的实现
+org.springframework.boot.SpringApplicationRunListener=\
+xin.jerome.application.run.SpringBootRunListener
