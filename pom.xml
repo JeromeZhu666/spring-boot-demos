@@ -40,6 +40,7 @@
         <module>spring-boot-demo-jmx</module>
         <module>spring-boot-demo-configuration</module>
         <module>spring-boot-demo-application</module>
+        <module>spring-boot-demo-web-mvc</module>
     </modules>
 
 
