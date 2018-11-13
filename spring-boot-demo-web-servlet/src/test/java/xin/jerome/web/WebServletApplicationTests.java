@@ -16,7 +16,7 @@ import static org.junit.Assert.*;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringBootDemoWebApplicationTests {
+public class WebServletApplicationTests {
 
     @Test
     public void main() {

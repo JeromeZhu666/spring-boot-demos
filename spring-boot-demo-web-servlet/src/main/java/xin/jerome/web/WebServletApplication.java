@@ -19,10 +19,10 @@ import java.util.Arrays;
  */
 @SpringBootApplication
 @ServletComponentScan(basePackages = {"xin.jerome.web.*"})
-public class SpringBootDemoWebApplication {
+public class WebServletApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDemoWebApplication.class);
+        SpringApplication.run(WebServletApplication.class);
     }
 
     @Bean
