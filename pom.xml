@@ -42,6 +42,7 @@
         <module>spring-boot-demo-web-mvc</module>
         <module>spring-boot-demo-web-thymeleaf</module>
         <module>spring-boot-demo-websocket</module>
+        <module>spring-boot-demo-configuration-environment</module>
     </modules>
 
 

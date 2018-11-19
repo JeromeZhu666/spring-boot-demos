@@ -1,0 +1,9 @@
+# prod properties
+spring:
+  profiles: prod
+
+server:
+  port: 8082
+
+constant:
+  environment: prod

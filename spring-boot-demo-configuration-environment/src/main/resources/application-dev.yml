@@ -1,0 +1,9 @@
+# dev properties
+spring:
+  profiles: dev
+
+server:
+  port: 8080
+
+constant:
+  environment: dev

@@ -1,0 +1,9 @@
+# test properties
+spring:
+  profiles: test
+
+server:
+  port: 8081
+
+constant:
+  environment: test

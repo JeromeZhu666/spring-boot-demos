@@ -1,0 +1,4 @@
+# common properties
+spring:
+  profiles:
+    active: @profiles.active@
