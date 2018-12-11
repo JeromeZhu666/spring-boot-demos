@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="student" class="xin.jerome.configuration.domain.Student">
+    <bean name="xmlBean" class="xin.jerome.configuration.entity.XmlBean">
         <property name="id" value="${student.id}"/>
         <property name="name" value="${student.name}"/>
         <property name="age" value="18"/>
