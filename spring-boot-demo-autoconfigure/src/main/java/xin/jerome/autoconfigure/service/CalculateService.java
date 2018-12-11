@@ -1,4 +1,4 @@
-package xin.jerome.configuration.autoconfigure.service;
+package xin.jerome.autoconfigure.service;
 
 /**
  * 计算业务

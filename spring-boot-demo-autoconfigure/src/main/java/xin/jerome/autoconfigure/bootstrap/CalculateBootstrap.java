@@ -1,11 +1,11 @@
-package xin.jerome.configuration.autoconfigure.bootstrap;
+package xin.jerome.autoconfigure.bootstrap;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Profile;
-import xin.jerome.configuration.autoconfigure.service.CalculateService;
+import xin.jerome.autoconfigure.service.CalculateService;
 
 /**
  * 验证手动实现基于注解{@link Profile}的条件装配
@@ -13,7 +13,7 @@ import xin.jerome.configuration.autoconfigure.service.CalculateService;
  * @author Jerome Zhu
  * @since 2018.10.23 17:08
  */
-@SpringBootApplication(scanBasePackages = "xin.jerome.configuration.autoconfigure.service")
+@SpringBootApplication(scanBasePackages = "xin.jerome.autoconfigure.service")
 public class CalculateBootstrap {
 
     public static void main(String[] args) {

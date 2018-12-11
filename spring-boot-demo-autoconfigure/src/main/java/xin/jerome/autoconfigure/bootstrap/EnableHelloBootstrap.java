@@ -1,9 +1,9 @@
-package xin.jerome.configuration.autoconfigure.bootstrap;
+package xin.jerome.autoconfigure.bootstrap;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
-import xin.jerome.configuration.autoconfigure.annotation.EnableHello;
+import xin.jerome.autoconfigure.annotation.EnableHello;
 
 /**
  * 验证手动自定义 {@link EnableHello} 模块化装配

@@ -1,4 +1,4 @@
-package xin.jerome.configuration.autoconfigure.bootstrap;
+package xin.jerome.autoconfigure.bootstrap;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

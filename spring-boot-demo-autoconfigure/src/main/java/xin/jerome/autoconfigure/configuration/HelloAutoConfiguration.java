@@ -1,8 +1,8 @@
-package xin.jerome.configuration.autoconfigure.configuration;
+package xin.jerome.autoconfigure.configuration;
 
 import org.springframework.context.annotation.Configuration;
-import xin.jerome.configuration.autoconfigure.annotation.EnableHello;
-import xin.jerome.configuration.autoconfigure.condition.ConditionalOnSystemProperty;
+import xin.jerome.autoconfigure.annotation.EnableHello;
+import xin.jerome.autoconfigure.condition.ConditionalOnSystemProperty;
 
 /**
  * Hello自动装配

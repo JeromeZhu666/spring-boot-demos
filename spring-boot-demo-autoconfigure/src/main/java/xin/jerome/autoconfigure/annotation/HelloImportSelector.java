@@ -1,8 +1,8 @@
-package xin.jerome.configuration.autoconfigure.annotation;
+package xin.jerome.autoconfigure.annotation;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
-import xin.jerome.configuration.autoconfigure.configuration.HelloConfiguration;
+import xin.jerome.autoconfigure.configuration.HelloConfiguration;
 
 /**
  * Hello {@link ImportSelector} 的实现

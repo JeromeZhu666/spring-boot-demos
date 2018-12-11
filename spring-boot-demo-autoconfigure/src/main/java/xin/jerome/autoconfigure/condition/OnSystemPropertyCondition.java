@@ -1,4 +1,4 @@
-package xin.jerome.configuration.autoconfigure.condition;
+package xin.jerome.autoconfigure.condition;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;

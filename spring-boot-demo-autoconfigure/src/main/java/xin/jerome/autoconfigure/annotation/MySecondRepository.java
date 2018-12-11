@@ -1,4 +1,4 @@
-package xin.jerome.configuration.autoconfigure.annotation;
+package xin.jerome.autoconfigure.annotation;
 
 import org.springframework.stereotype.Component;
 

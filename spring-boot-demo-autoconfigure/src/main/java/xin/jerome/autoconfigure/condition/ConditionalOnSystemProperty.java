@@ -1,7 +1,6 @@
-package xin.jerome.configuration.autoconfigure.condition;
+package xin.jerome.autoconfigure.condition;
 
 import org.springframework.context.annotation.Conditional;
-import xin.jerome.configuration.autoconfigure.condition.OnSystemPropertyCondition;
 
 import java.lang.annotation.*;
 

@@ -1,4 +1,4 @@
-package xin.jerome.configuration.autoconfigure.configuration;
+package xin.jerome.autoconfigure.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

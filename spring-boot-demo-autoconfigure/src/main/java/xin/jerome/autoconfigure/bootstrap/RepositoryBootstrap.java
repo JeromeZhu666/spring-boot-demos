@@ -1,13 +1,13 @@
-package xin.jerome.configuration.autoconfigure.bootstrap;
+package xin.jerome.autoconfigure.bootstrap;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import xin.jerome.configuration.autoconfigure.annotation.MyFirstRepository;
-import xin.jerome.configuration.autoconfigure.annotation.MySecondRepository;
-import xin.jerome.configuration.autoconfigure.repository.MyRepositoryOne;
-import xin.jerome.configuration.autoconfigure.repository.MyRepositoryTwo;
+import xin.jerome.autoconfigure.annotation.MyFirstRepository;
+import xin.jerome.autoconfigure.annotation.MySecondRepository;
+import xin.jerome.autoconfigure.repository.MyRepositoryOne;
+import xin.jerome.autoconfigure.repository.MyRepositoryTwo;
 
 /**
  * 验证手动方式实现自定义注解{@link MyFirstRepository} 和 {@link MySecondRepository}装配
@@ -15,7 +15,7 @@ import xin.jerome.configuration.autoconfigure.repository.MyRepositoryTwo;
  * @author Jerome Zhu
  * @since 2018.10.23 15:45
  */
-@ComponentScan(basePackages = "xin.jerome.configuration.autoconfigure.repository")
+@ComponentScan(basePackages = "xin.jerome.autoconfigure.repository")
 public class RepositoryBootstrap {
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package xin.jerome.configuration.autoconfigure.annotation;
+package xin.jerome.autoconfigure.annotation;
 
 import org.springframework.context.annotation.Import;
-import xin.jerome.configuration.autoconfigure.configuration.HelloConfiguration;
+import xin.jerome.autoconfigure.configuration.HelloConfiguration;
 
 import java.lang.annotation.*;
 

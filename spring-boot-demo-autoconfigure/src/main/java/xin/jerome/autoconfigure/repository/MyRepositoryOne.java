@@ -1,6 +1,6 @@
-package xin.jerome.configuration.autoconfigure.repository;
+package xin.jerome.autoconfigure.repository;
 
-import xin.jerome.configuration.autoconfigure.annotation.MyFirstRepository;
+import xin.jerome.autoconfigure.annotation.MyFirstRepository;
 
 /**
  * Repository Bean {@link MyFirstRepository}

@@ -1,8 +1,8 @@
-package xin.jerome.configuration.autoconfigure.service.impl;
+package xin.jerome.autoconfigure.service.impl;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
-import xin.jerome.configuration.autoconfigure.service.CalculateService;
+import xin.jerome.autoconfigure.service.CalculateService;
 
 import java.util.stream.Stream;
 

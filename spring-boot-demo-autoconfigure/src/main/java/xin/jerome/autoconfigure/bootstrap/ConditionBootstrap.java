@@ -1,11 +1,11 @@
-package xin.jerome.configuration.autoconfigure.bootstrap;
+package xin.jerome.autoconfigure.bootstrap;
 
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Condition;
-import xin.jerome.configuration.autoconfigure.condition.ConditionalOnSystemProperty;
+import xin.jerome.autoconfigure.condition.ConditionalOnSystemProperty;
 
 /**
  * 验证手动实现基于编程{@link Condition}方式的条件装配
