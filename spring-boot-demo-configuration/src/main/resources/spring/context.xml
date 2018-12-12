@@ -5,9 +5,9 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean name="xmlBean" class="xin.jerome.configuration.entity.XmlBean">
-        <property name="id" value="${student.id}"/>
-        <property name="name" value="${student.name}"/>
-        <property name="age" value="18"/>
+        <property name="id" value="${xml.bean.id}"/>
+        <property name="name" value="Jerome"/>
+        <property name="desc" value="${xml.bean.desc}"/>
     </bean>
 
 </beans>
