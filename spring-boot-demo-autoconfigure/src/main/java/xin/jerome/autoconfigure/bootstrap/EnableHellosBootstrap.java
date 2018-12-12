@@ -3,19 +3,19 @@ package xin.jerome.autoconfigure.bootstrap;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
-import xin.jerome.autoconfigure.annotation.EnableHello;
+import xin.jerome.autoconfigure.annotation.EnableHellos;
 
 /**
- * 验证自定义 {@link EnableHello} 模块化装配
+ * 验证自定义 {@link EnableHellos} 模块化装配
  *
  * @author Jerome Zhu
  * @since 2018.10.23 16:39
  */
-@EnableHello
-public class EnableHelloBootstrap {
+@EnableHellos
+public class EnableHellosBootstrap {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = new SpringApplicationBuilder(EnableHelloBootstrap.class)
+        ConfigurableApplicationContext context = new SpringApplicationBuilder(EnableHellosBootstrap.class)
                 .web(WebApplicationType.NONE)
                 .run(args);
 

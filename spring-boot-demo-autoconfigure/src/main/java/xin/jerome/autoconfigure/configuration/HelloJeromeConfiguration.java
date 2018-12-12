@@ -10,12 +10,12 @@ import org.springframework.context.annotation.Configuration;
  * @since 2018.10.23 16:30
  */
 @Configuration
-public class HelloConfiguration {
+public class HelloJeromeConfiguration {
 
     @Bean
     public String hello() { // method name is bean name
         System.out.println("Bean : hello is loading.");
-        return "hello word !";
+        return "hello jerome !";
     }
 
 }
