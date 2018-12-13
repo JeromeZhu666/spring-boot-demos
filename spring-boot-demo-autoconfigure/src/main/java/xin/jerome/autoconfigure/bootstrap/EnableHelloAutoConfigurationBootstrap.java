@@ -13,16 +13,17 @@ import org.springframework.context.ConfigurableApplicationContext;
  * @since 2018.10.24 09:36
  */
 @EnableAutoConfiguration
-public class EnableAutoConfigurationBootstrap {
+public class EnableHelloAutoConfigurationBootstrap {
     public static void main(String[] args) {
 
-        ConfigurableApplicationContext context = new SpringApplicationBuilder(EnableAutoConfigurationBootstrap.class)
+        ConfigurableApplicationContext context = new SpringApplicationBuilder(EnableHelloAutoConfigurationBootstrap.class)
                 .web(WebApplicationType.NONE)
                 .run(args);
 
         String helloBean = context.getBean("hello", String.class);
         System.out.println("hello Bean: " + helloBean);
-
+        String sayHelloBean = context.getBean("sayHello", String.class);
+        System.out.println("sayHello Bean: " + sayHelloBean);
         context.close();
     }
 }

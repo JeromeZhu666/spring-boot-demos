@@ -15,6 +15,5 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Documented
 @Import(HelloConfiguration.class) // 模块装配：注解驱动实现
-
 public @interface EnableHello {
 }
