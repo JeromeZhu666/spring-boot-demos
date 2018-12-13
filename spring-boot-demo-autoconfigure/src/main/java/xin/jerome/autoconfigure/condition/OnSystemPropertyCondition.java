@@ -7,7 +7,7 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
 import java.util.Map;
 
 /**
- * {@link Condition} 实现  匹配条件
+ * {@link Condition} 实现匹配系统配置的条件
  *
  * @author Jerome Zhu
  * @since 2018.10.23 17:30
@@ -18,13 +18,13 @@ public class OnSystemPropertyCondition implements Condition {
 
         Map<String, Object> attributes = metadata.getAnnotationAttributes(ConditionalOnSystemProperty.class.getName());
 
-        String sysPropertyName = String.valueOf(attributes.get("name"));
+        String propertyKey = String.valueOf(attributes.get("key"));
 
-        String sysPropertyValue = String.valueOf(attributes.get("value"));
+        String propertyValue = String.valueOf(attributes.get("value"));
 
-        // 获取系统变量 PropertyName 对应的值
-        String property = System.getProperty(sysPropertyName);
+        // 获取系统变量 propertyKey 对应的值
+        String sysPropertyValue = System.getProperty(propertyKey);
 
-        return property.equals(sysPropertyValue);
+        return propertyValue.equals(sysPropertyValue);
     }
 }

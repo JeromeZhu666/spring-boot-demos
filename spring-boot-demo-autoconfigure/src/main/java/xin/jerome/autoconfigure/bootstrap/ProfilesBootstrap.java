@@ -1,14 +1,13 @@
 package xin.jerome.autoconfigure.bootstrap;
 
 import org.springframework.boot.WebApplicationType;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
 /**
- * 基于
+ * 基于{@link Profile} 实现条件配置
  *
  * @author Jerome Zhu
  * @since 2018.12.12 17:17
@@ -32,7 +31,7 @@ public class ProfilesBootstrap {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = new SpringApplicationBuilder(ProfilesBootstrap.class)
                 .web(WebApplicationType.NONE)
-                .profiles("prod")
+                .profiles("test")
                 .run(args);
         String helloBean = context.getBean("hello", String.class);
         System.out.println("hello Bean: " + helloBean);

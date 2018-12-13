@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Conditional;
 import java.lang.annotation.*;
 
 /**
- * Java 系统条件判断
+ * 根据系统环境条件判断是否装配Bean
  *
  * @author Jerome Zhu
  * @since 2018.10.23 17:33
@@ -16,8 +16,13 @@ import java.lang.annotation.*;
 @Conditional(OnSystemPropertyCondition.class)
 public @interface ConditionalOnSystemProperty {
 
+    /**
+     * system property key
+     */
+    String key();
 
-    String name();
-
+    /**
+     * system property key
+     */
     String value();
 }

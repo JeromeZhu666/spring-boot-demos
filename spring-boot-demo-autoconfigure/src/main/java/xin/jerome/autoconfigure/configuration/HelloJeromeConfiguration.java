@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class HelloJeromeConfiguration {
 
     @Bean
-    public String hello() { // method name is bean name
+    public String hello() { // method key is bean key
         System.out.println("Bean : hello is loading.");
         return "hello jerome !";
     }

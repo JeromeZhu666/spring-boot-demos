@@ -24,7 +24,7 @@ public class RepositoryBootstrap {
                 .run(args);
 
         /*
-         测试bean是否被自动装配成功，如果不存在bean name 会报错：
+         测试bean是否被自动装配成功，如果不存在bean key 会报错：
          org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'XXXX' available
         */
         MyRepositoryOne myFirstRepository = context.getBean("myFirstRepository", MyRepositoryOne.class);

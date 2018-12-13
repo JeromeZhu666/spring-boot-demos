@@ -8,16 +8,22 @@ import org.springframework.context.annotation.Condition;
 import xin.jerome.autoconfigure.condition.ConditionalOnSystemProperty;
 
 /**
- * 验证手动实现基于编程{@link Condition}方式的条件装配
+ * 验证自定义基于编程{@link Condition}方式的条件装配
  *
  * @author Jerome Zhu
  * @since 2018.10.23 17:40
  */
 public class ConditionBootstrap {
 
-    @Bean
-    @ConditionalOnSystemProperty(name = "user.name", value = "user")
-    public String hello() {
+    @Bean("hello")
+    @ConditionalOnSystemProperty(key = "user.name", value = "user")
+    public String userHello() {
+        return "hello user !";
+    }
+
+    @Bean("hello")
+    @ConditionalOnSystemProperty(key = "user.name", value = "jerome")
+    public String jeromeHello() {
         return "hello jerome !";
     }
 

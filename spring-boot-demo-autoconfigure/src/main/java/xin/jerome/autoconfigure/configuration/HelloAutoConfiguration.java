@@ -12,6 +12,6 @@ import xin.jerome.autoconfigure.condition.ConditionalOnSystemProperty;
  */
 @Configuration // 模式注解
 @EnableHello // spring Enable模块装配  ↑
-@ConditionalOnSystemProperty(name = "user.name", value = "user") // 条件装配 ↑
+@ConditionalOnSystemProperty(key = "user.key", value = "user") // 条件装配 ↑
 public class HelloAutoConfiguration {
 }
