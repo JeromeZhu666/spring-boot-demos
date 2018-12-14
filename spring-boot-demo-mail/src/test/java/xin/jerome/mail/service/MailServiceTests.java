@@ -25,7 +25,7 @@ import javax.mail.MessagingException;
 public class MailServiceTests {
 
     private Logger logger = LoggerFactory.getLogger(MailServiceTests.class);
-    private String toUser = "591578399@qq.com";
+    private String toUser = "xxxx@qq.com";
 
     @Autowired
     private MailService mailService;
@@ -86,6 +86,7 @@ public class MailServiceTests {
         }
         logger.info("发送Img邮件结束。。。。");
     }
+
     @Test
     public void testSendTemplateMail() {
         Context context = new Context();

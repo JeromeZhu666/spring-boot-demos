@@ -30,8 +30,6 @@ public class MailServiceImpl implements MailService {
     @Autowired
     private JavaMailSender javaMailSender;
 
-
-
     @Override
     public void sendTextMail(String toUser, String subject, String content) {
         SimpleMailMessage message = new SimpleMailMessage();
