@@ -19,11 +19,7 @@ public class LogbackController {
 
     @GetMapping("/logback/{msg}")
     public String getMsg(@PathVariable String msg) {
-        String log = "Logback" + msg;
-
-        logger.info(log);
-
-        return log;
+        return "request msg : " + msg;
     }
 
 }

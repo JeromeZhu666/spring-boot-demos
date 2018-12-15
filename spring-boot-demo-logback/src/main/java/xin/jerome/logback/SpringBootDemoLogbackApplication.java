@@ -14,14 +14,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootDemoLogbackApplication {
 
-    private static Logger logger = LoggerFactory.getLogger(SpringBootDemoLogbackApplication.class);
+//    private static Logger logger = LoggerFactory.getLogger(SpringBootDemoLogbackApplication.class);
 
     public static void main(String[] args) {
-        logger.trace("trace level log.");
-        logger.debug("debug level log.");
-        logger.info("info level log.");
-        logger.warn("warn level log.");
-        logger.error("error level log.");
+//        logger.trace("trace level log.");
+//        logger.debug("debug level log.");
+//        logger.info("info level log.");
+//        logger.warn("warn level log.");
+//        logger.error("error level log.");
         SpringApplication.run(SpringBootDemoLogbackApplication.class);
     }
 }
