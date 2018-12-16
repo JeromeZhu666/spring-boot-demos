@@ -1,2 +1,2 @@
 # SpringBootDemos
-Spring Boot studies
+Spring Boot 相关的学习Demo
