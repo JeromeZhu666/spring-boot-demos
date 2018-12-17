@@ -31,6 +31,7 @@
         <module>spring-boot-demo-cache</module>
         <module>spring-boot-demo-configuration</module>
         <module>spring-boot-demo-configuration-environment</module>
+        <module>spring-boot-demo-helloword</module>
         <module>spring-boot-demo-jdbc</module>
         <module>spring-boot-demo-jmx</module>
         <module>spring-boot-demo-jpa</module>
