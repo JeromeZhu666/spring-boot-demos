@@ -22,4 +22,10 @@ public class LogbackController {
         return "request msg : " + msg;
     }
 
+    @GetMapping("/logback/ex")
+    public String getExcation() throws Exception {
+
+        throw new Exception("sd");
+
+    }
 }
