@@ -13,7 +13,7 @@
     <groupId>xin.jerome.demo</groupId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>demo-helloword</name>
+    <name>spring-boot-demo-helloword</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
