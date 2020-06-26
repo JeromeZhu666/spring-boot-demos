@@ -36,14 +36,14 @@
         <module>spring-boot-logback</module>
         <module>spring-boot-mail</module>
         <module>spring-boot-mybatis</module>
+        <module>spring-boot-mybatis-plus</module>
         <module>spring-boot-redis</module>
         <module>spring-boot-security</module>
         <module>spring-boot-validation</module>
-        <module>spring-boot-web-servlet</module>
         <module>spring-boot-web-mvc</module>
+        <module>spring-boot-web-servlet</module>
         <module>spring-boot-web-thymeleaf</module>
         <module>spring-boot-websocket</module>
-        <module>spring-boot-mybatis-plus</module>
     </modules>
 
     <build>
