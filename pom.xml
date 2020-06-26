@@ -3,15 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>xin.jerome</groupId>
-    <artifactId>spring-boot-demos</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-
-    <name>spring-boot-demos</name>
-    <description>Demo project for Spring Boot</description>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -19,34 +10,55 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <groupId>xin.jerome</groupId>
+    <artifactId>spring-boot-samples</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>spring-boot-samples</name>
+    <description>Demo project for Spring Boot</description>
+
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
     <modules>
-        <module>spring-boot-demo-application</module>
-        <module>spring-boot-demo-autoconfigure</module>
-        <module>spring-boot-demo-cache</module>
-        <module>spring-boot-demo-configuration</module>
-        <module>spring-boot-demo-configuration-environment</module>
-        <module>spring-boot-demo-helloword</module>
-        <module>spring-boot-demo-jdbc</module>
-        <module>spring-boot-demo-jmx</module>
-        <module>spring-boot-demo-jpa</module>
-        <module>spring-boot-demo-logback</module>
-        <module>spring-boot-demo-mail</module>
-        <module>spring-boot-demo-mybatis</module>
-        <module>spring-boot-demo-redis</module>
-        <module>spring-boot-demo-security</module>
-        <module>spring-boot-demo-validation</module>
-        <module>spring-boot-demo-web-servlet</module>
-        <module>spring-boot-demo-web-mvc</module>
-        <module>spring-boot-demo-web-thymeleaf</module>
-        <module>spring-boot-demo-websocket</module>
+        <module>spring-boot-application-principles</module>
+        <module>spring-boot-cache</module>
+        <module>spring-boot-jdbc</module>
+        <module>spring-boot-jmx</module>
+        <module>spring-boot-jpa</module>
+        <module>spring-boot-logback</module>
+        <module>spring-boot-mail</module>
+        <module>spring-boot-mybatis</module>
+        <module>spring-boot-redis</module>
+        <module>spring-boot-security</module>
+        <module>spring-boot-validation</module>
+        <module>spring-boot-web-servlet</module>
+        <module>spring-boot-web-mvc</module>
+        <module>spring-boot-web-thymeleaf</module>
+        <module>spring-boot-websocket</module>
         <module>spring-boot-mybatis-plus</module>
     </modules>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${maven.compiler.source}</source>
+                    <target>${maven.compiler.target}</target>
+                    <fork>true</fork>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
